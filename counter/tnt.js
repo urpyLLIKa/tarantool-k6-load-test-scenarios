@@ -9,19 +9,19 @@ export const options = {
         incr: {
             executor: "constant-vus",
             exec: "incr",
-            vus: 1750,
+            vus: 50,
             duration: "120s",
         },
         decr: {
             executor: "constant-vus",
             exec: "decr",
-            vus: 1750,
+            vus: 50,
             duration: "120s",
         },
     },
 };
 export function setup() {
-    for (let i = 1; i < 1751; i++) {
+    for (let i = 1; i < 101; i++) {
         tarantool.replace(conn, "test", [i.toString(), 0]);
     }
 

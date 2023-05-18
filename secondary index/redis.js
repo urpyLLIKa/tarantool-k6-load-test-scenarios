@@ -6,8 +6,8 @@ export const options = {
     scenarios: {
         test_mem: {
             executor: "constant-vus",
-            exec: "search",
-            vus: 3500,
+            exec: "set_keys",
+            vus: 100,
             duration: "120s",
         },
     },

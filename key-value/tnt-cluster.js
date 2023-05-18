@@ -8,8 +8,8 @@ export const options = {
     scenarios: {
         test: {
             executor: "constant-vus",
-            exec: "del",
-            vus: 3500,
+            exec: "set",
+            vus: 100,
             duration: "120s",
         },
     },

@@ -7,13 +7,13 @@ export const options = {
         test_incr: {
             executor: "constant-vus",
             exec: "incr",
-            vus: 1750,
+            vus: 50,
             duration: "120s",
         },
         test_decr: {
             executor: "constant-vus",
             exec: "decr",
-            vus: 1750,
+            vus: 50,
             duration: "120s",
         },
     },

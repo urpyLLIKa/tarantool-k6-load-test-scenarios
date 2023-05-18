@@ -9,7 +9,7 @@ export const options = {
         test: {
             executor: "constant-vus",
             exec: "set",
-            vus: 3500,
+            vus: 100,
             duration: "120s",
         },
     },
