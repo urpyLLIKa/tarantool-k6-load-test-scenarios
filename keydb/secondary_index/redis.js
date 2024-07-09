@@ -12,11 +12,7 @@ export const options = {
         },
     },
 };
-const client = new redis.Client({
-    addrs: new Array("host:port"),
-    password: "",
-    db: 0,
-});
+const client = new redis.Client('redis://127.0.0.1:6379');
 
 export function set_keys() {
     client.hset("test:" + exec.vu.idInInstance, "title", "test" + exec.vu

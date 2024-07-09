@@ -2,7 +2,7 @@ import tarantool from "k6/x/tarantool";
 import exec from "k6/execution";
 
 
-const conn = tarantool.connect("host:port");
+const conn = tarantool.connect(["localhost:3001"]);
 export const options = {
     discardResponseBodies: true,
     scenarios: {

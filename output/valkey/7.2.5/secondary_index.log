@@ -1,0 +1,385 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/   
+     /\  /  \     |  |/  /   /  /    
+    /  \/    \    |     (   /   ‾‾\  
+   /          \   |  |\  \ |  (‾)  | 
+  / __________ \  |__| \__\ \_____/ .io
+
+     execution: local
+        script: valkey/secondary_index/redis.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 100 max VUs, 2m30s max duration (incl. graceful stop):
+              * test_mem: 100 looping VUs for 2m0s (exec: set_keys, gracefulStop: 30s)
+
+
+running (0m01.0s), 100/100 VUs, 47774 complete and 0 interrupted iterations
+test_mem   [   1% ] 100 VUs  0m01.0s/2m0s
+
+running (0m02.0s), 100/100 VUs, 101172 complete and 0 interrupted iterations
+test_mem   [   2% ] 100 VUs  0m02.0s/2m0s
+
+running (0m03.0s), 100/100 VUs, 154050 complete and 0 interrupted iterations
+test_mem   [   2% ] 100 VUs  0m03.0s/2m0s
+
+running (0m04.0s), 100/100 VUs, 206293 complete and 0 interrupted iterations
+test_mem   [   3% ] 100 VUs  0m04.0s/2m0s
+
+running (0m05.0s), 100/100 VUs, 260146 complete and 0 interrupted iterations
+test_mem   [   4% ] 100 VUs  0m05.0s/2m0s
+
+running (0m06.0s), 100/100 VUs, 315219 complete and 0 interrupted iterations
+test_mem   [   5% ] 100 VUs  0m06.0s/2m0s
+
+running (0m07.0s), 100/100 VUs, 372261 complete and 0 interrupted iterations
+test_mem   [   6% ] 100 VUs  0m07.0s/2m0s
+
+running (0m08.0s), 100/100 VUs, 429724 complete and 0 interrupted iterations
+test_mem   [   7% ] 100 VUs  0m08.0s/2m0s
+
+running (0m09.0s), 100/100 VUs, 487297 complete and 0 interrupted iterations
+test_mem   [   7% ] 100 VUs  0m09.0s/2m0s
+
+running (0m10.0s), 100/100 VUs, 544493 complete and 0 interrupted iterations
+test_mem   [   8% ] 100 VUs  0m10.0s/2m0s
+
+running (0m11.0s), 100/100 VUs, 601965 complete and 0 interrupted iterations
+test_mem   [   9% ] 100 VUs  0m11.0s/2m0s
+
+running (0m12.0s), 100/100 VUs, 657564 complete and 0 interrupted iterations
+test_mem   [  10% ] 100 VUs  0m12.0s/2m0s
+
+running (0m13.0s), 100/100 VUs, 716108 complete and 0 interrupted iterations
+test_mem   [  11% ] 100 VUs  0m13.0s/2m0s
+
+running (0m14.0s), 100/100 VUs, 775057 complete and 0 interrupted iterations
+test_mem   [  12% ] 100 VUs  0m14.0s/2m0s
+
+running (0m15.0s), 100/100 VUs, 829807 complete and 0 interrupted iterations
+test_mem   [  12% ] 100 VUs  0m15.0s/2m0s
+
+running (0m16.0s), 100/100 VUs, 888330 complete and 0 interrupted iterations
+test_mem   [  13% ] 100 VUs  0m16.0s/2m0s
+
+running (0m17.0s), 100/100 VUs, 944138 complete and 0 interrupted iterations
+test_mem   [  14% ] 100 VUs  0m17.0s/2m0s
+
+running (0m18.0s), 100/100 VUs, 1001469 complete and 0 interrupted iterations
+test_mem   [  15% ] 100 VUs  0m18.0s/2m0s
+
+running (0m19.0s), 100/100 VUs, 1060034 complete and 0 interrupted iterations
+test_mem   [  16% ] 100 VUs  0m19.0s/2m0s
+
+running (0m20.0s), 100/100 VUs, 1118408 complete and 0 interrupted iterations
+test_mem   [  17% ] 100 VUs  0m20.0s/2m0s
+
+running (0m21.0s), 100/100 VUs, 1174949 complete and 0 interrupted iterations
+test_mem   [  18% ] 100 VUs  0m21.0s/2m0s
+
+running (0m22.0s), 100/100 VUs, 1230777 complete and 0 interrupted iterations
+test_mem   [  18% ] 100 VUs  0m22.0s/2m0s
+
+running (0m23.0s), 100/100 VUs, 1290485 complete and 0 interrupted iterations
+test_mem   [  19% ] 100 VUs  0m23.0s/2m0s
+
+running (0m24.0s), 100/100 VUs, 1349075 complete and 0 interrupted iterations
+test_mem   [  20% ] 100 VUs  0m24.0s/2m0s
+
+running (0m25.0s), 100/100 VUs, 1406103 complete and 0 interrupted iterations
+test_mem   [  21% ] 100 VUs  0m25.0s/2m0s
+
+running (0m26.0s), 100/100 VUs, 1464014 complete and 0 interrupted iterations
+test_mem   [  22% ] 100 VUs  0m26.0s/2m0s
+
+running (0m27.0s), 100/100 VUs, 1521507 complete and 0 interrupted iterations
+test_mem   [  22% ] 100 VUs  0m27.0s/2m0s
+
+running (0m28.0s), 100/100 VUs, 1580080 complete and 0 interrupted iterations
+test_mem   [  23% ] 100 VUs  0m28.0s/2m0s
+
+running (0m29.0s), 100/100 VUs, 1639131 complete and 0 interrupted iterations
+test_mem   [  24% ] 100 VUs  0m29.0s/2m0s
+
+running (0m30.0s), 100/100 VUs, 1698047 complete and 0 interrupted iterations
+test_mem   [  25% ] 100 VUs  0m30.0s/2m0s
+
+running (0m31.0s), 100/100 VUs, 1753029 complete and 0 interrupted iterations
+test_mem   [  26% ] 100 VUs  0m31.0s/2m0s
+
+running (0m32.0s), 100/100 VUs, 1807423 complete and 0 interrupted iterations
+test_mem   [  27% ] 100 VUs  0m32.0s/2m0s
+
+running (0m33.0s), 100/100 VUs, 1862220 complete and 0 interrupted iterations
+test_mem   [  27% ] 100 VUs  0m33.0s/2m0s
+
+running (0m34.0s), 100/100 VUs, 1910899 complete and 0 interrupted iterations
+test_mem   [  28% ] 100 VUs  0m34.0s/2m0s
+
+running (0m35.0s), 100/100 VUs, 1964441 complete and 0 interrupted iterations
+test_mem   [  29% ] 100 VUs  0m35.0s/2m0s
+
+running (0m36.0s), 100/100 VUs, 2018674 complete and 0 interrupted iterations
+test_mem   [  30% ] 100 VUs  0m36.0s/2m0s
+
+running (0m37.0s), 100/100 VUs, 2073402 complete and 0 interrupted iterations
+test_mem   [  31% ] 100 VUs  0m37.0s/2m0s
+
+running (0m38.0s), 100/100 VUs, 2127381 complete and 0 interrupted iterations
+test_mem   [  32% ] 100 VUs  0m38.0s/2m0s
+
+running (0m39.0s), 100/100 VUs, 2178345 complete and 0 interrupted iterations
+test_mem   [  32% ] 100 VUs  0m39.0s/2m0s
+
+running (0m40.0s), 100/100 VUs, 2234746 complete and 0 interrupted iterations
+test_mem   [  33% ] 100 VUs  0m40.0s/2m0s
+
+running (0m41.0s), 100/100 VUs, 2289011 complete and 0 interrupted iterations
+test_mem   [  34% ] 100 VUs  0m41.0s/2m0s
+
+running (0m42.0s), 100/100 VUs, 2344606 complete and 0 interrupted iterations
+test_mem   [  35% ] 100 VUs  0m42.0s/2m0s
+
+running (0m43.0s), 100/100 VUs, 2398357 complete and 0 interrupted iterations
+test_mem   [  36% ] 100 VUs  0m43.0s/2m0s
+
+running (0m44.0s), 100/100 VUs, 2453366 complete and 0 interrupted iterations
+test_mem   [  37% ] 100 VUs  0m44.0s/2m0s
+
+running (0m45.0s), 100/100 VUs, 2512359 complete and 0 interrupted iterations
+test_mem   [  37% ] 100 VUs  0m45.0s/2m0s
+
+running (0m46.0s), 100/100 VUs, 2568562 complete and 0 interrupted iterations
+test_mem   [  38% ] 100 VUs  0m46.0s/2m0s
+
+running (0m47.0s), 100/100 VUs, 2623169 complete and 0 interrupted iterations
+test_mem   [  39% ] 100 VUs  0m47.0s/2m0s
+
+running (0m48.0s), 100/100 VUs, 2676133 complete and 0 interrupted iterations
+test_mem   [  40% ] 100 VUs  0m48.0s/2m0s
+
+running (0m49.0s), 100/100 VUs, 2734156 complete and 0 interrupted iterations
+test_mem   [  41% ] 100 VUs  0m49.0s/2m0s
+
+running (0m50.0s), 100/100 VUs, 2788625 complete and 0 interrupted iterations
+test_mem   [  42% ] 100 VUs  0m50.0s/2m0s
+
+running (0m51.0s), 100/100 VUs, 2845646 complete and 0 interrupted iterations
+test_mem   [  42% ] 100 VUs  0m51.0s/2m0s
+
+running (0m52.0s), 100/100 VUs, 2903897 complete and 0 interrupted iterations
+test_mem   [  43% ] 100 VUs  0m52.0s/2m0s
+
+running (0m53.0s), 100/100 VUs, 2960277 complete and 0 interrupted iterations
+test_mem   [  44% ] 100 VUs  0m53.0s/2m0s
+
+running (0m54.0s), 100/100 VUs, 3016147 complete and 0 interrupted iterations
+test_mem   [  45% ] 100 VUs  0m54.0s/2m0s
+
+running (0m55.0s), 100/100 VUs, 3072780 complete and 0 interrupted iterations
+test_mem   [  46% ] 100 VUs  0m55.0s/2m0s
+
+running (0m56.0s), 100/100 VUs, 3128851 complete and 0 interrupted iterations
+test_mem   [  47% ] 100 VUs  0m56.0s/2m0s
+
+running (0m57.0s), 100/100 VUs, 3186932 complete and 0 interrupted iterations
+test_mem   [  47% ] 100 VUs  0m57.0s/2m0s
+
+running (0m58.0s), 100/100 VUs, 3241710 complete and 0 interrupted iterations
+test_mem   [  48% ] 100 VUs  0m58.0s/2m0s
+
+running (0m59.0s), 100/100 VUs, 3289150 complete and 0 interrupted iterations
+test_mem   [  49% ] 100 VUs  0m59.0s/2m0s
+
+running (1m00.0s), 100/100 VUs, 3335876 complete and 0 interrupted iterations
+test_mem   [  50% ] 100 VUs  1m00.0s/2m0s
+
+running (1m01.0s), 100/100 VUs, 3388400 complete and 0 interrupted iterations
+test_mem   [  51% ] 100 VUs  1m01.0s/2m0s
+
+running (1m02.0s), 100/100 VUs, 3443055 complete and 0 interrupted iterations
+test_mem   [  52% ] 100 VUs  1m02.0s/2m0s
+
+running (1m03.0s), 100/100 VUs, 3469578 complete and 0 interrupted iterations
+test_mem   [  53% ] 100 VUs  1m03.0s/2m0s
+
+running (1m04.0s), 100/100 VUs, 3499187 complete and 0 interrupted iterations
+test_mem   [  53% ] 100 VUs  1m04.0s/2m0s
+
+running (1m05.0s), 100/100 VUs, 3533146 complete and 0 interrupted iterations
+test_mem   [  54% ] 100 VUs  1m05.0s/2m0s
+
+running (1m06.0s), 100/100 VUs, 3573614 complete and 0 interrupted iterations
+test_mem   [  55% ] 100 VUs  1m06.0s/2m0s
+
+running (1m07.0s), 100/100 VUs, 3620709 complete and 0 interrupted iterations
+test_mem   [  56% ] 100 VUs  1m07.0s/2m0s
+
+running (1m08.0s), 100/100 VUs, 3667616 complete and 0 interrupted iterations
+test_mem   [  57% ] 100 VUs  1m08.0s/2m0s
+
+running (1m09.0s), 100/100 VUs, 3696904 complete and 0 interrupted iterations
+test_mem   [  58% ] 100 VUs  1m09.0s/2m0s
+
+running (1m10.0s), 100/100 VUs, 3726823 complete and 0 interrupted iterations
+test_mem   [  58% ] 100 VUs  1m10.0s/2m0s
+
+running (1m11.0s), 100/100 VUs, 3764050 complete and 0 interrupted iterations
+test_mem   [  59% ] 100 VUs  1m11.0s/2m0s
+
+running (1m12.0s), 100/100 VUs, 3806326 complete and 0 interrupted iterations
+test_mem   [  60% ] 100 VUs  1m12.0s/2m0s
+
+running (1m13.0s), 100/100 VUs, 3854198 complete and 0 interrupted iterations
+test_mem   [  61% ] 100 VUs  1m13.0s/2m0s
+
+running (1m14.0s), 100/100 VUs, 3901583 complete and 0 interrupted iterations
+test_mem   [  62% ] 100 VUs  1m14.0s/2m0s
+
+running (1m15.0s), 100/100 VUs, 3952671 complete and 0 interrupted iterations
+test_mem   [  62% ] 100 VUs  1m15.0s/2m0s
+
+running (1m16.0s), 100/100 VUs, 4006049 complete and 0 interrupted iterations
+test_mem   [  63% ] 100 VUs  1m16.0s/2m0s
+
+running (1m17.0s), 100/100 VUs, 4058750 complete and 0 interrupted iterations
+test_mem   [  64% ] 100 VUs  1m17.0s/2m0s
+
+running (1m18.0s), 100/100 VUs, 4113461 complete and 0 interrupted iterations
+test_mem   [  65% ] 100 VUs  1m18.0s/2m0s
+
+running (1m19.0s), 100/100 VUs, 4171806 complete and 0 interrupted iterations
+test_mem   [  66% ] 100 VUs  1m19.0s/2m0s
+
+running (1m20.0s), 100/100 VUs, 4230855 complete and 0 interrupted iterations
+test_mem   [  67% ] 100 VUs  1m20.0s/2m0s
+
+running (1m21.0s), 100/100 VUs, 4289430 complete and 0 interrupted iterations
+test_mem   [  67% ] 100 VUs  1m21.0s/2m0s
+
+running (1m22.0s), 100/100 VUs, 4345468 complete and 0 interrupted iterations
+test_mem   [  68% ] 100 VUs  1m22.0s/2m0s
+
+running (1m23.0s), 100/100 VUs, 4401547 complete and 0 interrupted iterations
+test_mem   [  69% ] 100 VUs  1m23.0s/2m0s
+
+running (1m24.0s), 100/100 VUs, 4457960 complete and 0 interrupted iterations
+test_mem   [  70% ] 100 VUs  1m24.0s/2m0s
+
+running (1m25.0s), 100/100 VUs, 4514814 complete and 0 interrupted iterations
+test_mem   [  71% ] 100 VUs  1m25.0s/2m0s
+
+running (1m26.0s), 100/100 VUs, 4572048 complete and 0 interrupted iterations
+test_mem   [  72% ] 100 VUs  1m26.0s/2m0s
+
+running (1m27.0s), 100/100 VUs, 4633164 complete and 0 interrupted iterations
+test_mem   [  72% ] 100 VUs  1m27.0s/2m0s
+
+running (1m28.0s), 100/100 VUs, 4691417 complete and 0 interrupted iterations
+test_mem   [  73% ] 100 VUs  1m28.0s/2m0s
+
+running (1m29.0s), 100/100 VUs, 4750395 complete and 0 interrupted iterations
+test_mem   [  74% ] 100 VUs  1m29.0s/2m0s
+
+running (1m30.0s), 100/100 VUs, 4807168 complete and 0 interrupted iterations
+test_mem   [  75% ] 100 VUs  1m30.0s/2m0s
+
+running (1m31.0s), 100/100 VUs, 4864062 complete and 0 interrupted iterations
+test_mem   [  76% ] 100 VUs  1m31.0s/2m0s
+
+running (1m32.0s), 100/100 VUs, 4919903 complete and 0 interrupted iterations
+test_mem   [  77% ] 100 VUs  1m32.0s/2m0s
+
+running (1m33.0s), 100/100 VUs, 4976299 complete and 0 interrupted iterations
+test_mem   [  77% ] 100 VUs  1m33.0s/2m0s
+
+running (1m34.0s), 100/100 VUs, 5032895 complete and 0 interrupted iterations
+test_mem   [  78% ] 100 VUs  1m34.0s/2m0s
+
+running (1m35.0s), 100/100 VUs, 5089125 complete and 0 interrupted iterations
+test_mem   [  79% ] 100 VUs  1m35.0s/2m0s
+
+running (1m36.0s), 100/100 VUs, 5147881 complete and 0 interrupted iterations
+test_mem   [  80% ] 100 VUs  1m36.0s/2m0s
+
+running (1m37.0s), 100/100 VUs, 5205231 complete and 0 interrupted iterations
+test_mem   [  81% ] 100 VUs  1m37.0s/2m0s
+
+running (1m38.0s), 100/100 VUs, 5262360 complete and 0 interrupted iterations
+test_mem   [  82% ] 100 VUs  1m38.0s/2m0s
+
+running (1m39.0s), 100/100 VUs, 5319804 complete and 0 interrupted iterations
+test_mem   [  82% ] 100 VUs  1m39.0s/2m0s
+
+running (1m40.0s), 100/100 VUs, 5379148 complete and 0 interrupted iterations
+test_mem   [  83% ] 100 VUs  1m40.0s/2m0s
+
+running (1m41.0s), 100/100 VUs, 5436432 complete and 0 interrupted iterations
+test_mem   [  84% ] 100 VUs  1m41.0s/2m0s
+
+running (1m42.0s), 100/100 VUs, 5491802 complete and 0 interrupted iterations
+test_mem   [  85% ] 100 VUs  1m42.0s/2m0s
+
+running (1m43.0s), 100/100 VUs, 5549587 complete and 0 interrupted iterations
+test_mem   [  86% ] 100 VUs  1m43.0s/2m0s
+
+running (1m44.0s), 100/100 VUs, 5606633 complete and 0 interrupted iterations
+test_mem   [  87% ] 100 VUs  1m44.0s/2m0s
+
+running (1m45.0s), 100/100 VUs, 5662372 complete and 0 interrupted iterations
+test_mem   [  87% ] 100 VUs  1m45.0s/2m0s
+
+running (1m46.0s), 100/100 VUs, 5722852 complete and 0 interrupted iterations
+test_mem   [  88% ] 100 VUs  1m46.0s/2m0s
+
+running (1m47.0s), 100/100 VUs, 5780673 complete and 0 interrupted iterations
+test_mem   [  89% ] 100 VUs  1m47.0s/2m0s
+
+running (1m48.0s), 100/100 VUs, 5838296 complete and 0 interrupted iterations
+test_mem   [  90% ] 100 VUs  1m48.0s/2m0s
+
+running (1m49.0s), 100/100 VUs, 5893776 complete and 0 interrupted iterations
+test_mem   [  91% ] 100 VUs  1m49.0s/2m0s
+
+running (1m50.0s), 100/100 VUs, 5949493 complete and 0 interrupted iterations
+test_mem   [  92% ] 100 VUs  1m50.0s/2m0s
+
+running (1m51.0s), 100/100 VUs, 6001932 complete and 0 interrupted iterations
+test_mem   [  92% ] 100 VUs  1m51.0s/2m0s
+
+running (1m52.0s), 100/100 VUs, 6061377 complete and 0 interrupted iterations
+test_mem   [  93% ] 100 VUs  1m52.0s/2m0s
+
+running (1m53.0s), 100/100 VUs, 6119245 complete and 0 interrupted iterations
+test_mem   [  94% ] 100 VUs  1m53.0s/2m0s
+
+running (1m54.0s), 100/100 VUs, 6174867 complete and 0 interrupted iterations
+test_mem   [  95% ] 100 VUs  1m54.0s/2m0s
+
+running (1m55.0s), 100/100 VUs, 6230558 complete and 0 interrupted iterations
+test_mem   [  96% ] 100 VUs  1m55.0s/2m0s
+
+running (1m56.0s), 100/100 VUs, 6285608 complete and 0 interrupted iterations
+test_mem   [  97% ] 100 VUs  1m56.0s/2m0s
+
+running (1m57.0s), 100/100 VUs, 6340271 complete and 0 interrupted iterations
+test_mem   [  97% ] 100 VUs  1m57.0s/2m0s
+
+running (1m58.0s), 100/100 VUs, 6401255 complete and 0 interrupted iterations
+test_mem   [  98% ] 100 VUs  1m58.0s/2m0s
+
+running (1m59.0s), 100/100 VUs, 6462411 complete and 0 interrupted iterations
+test_mem   [  99% ] 100 VUs  1m59.0s/2m0s
+
+running (2m00.0s), 100/100 VUs, 6523792 complete and 0 interrupted iterations
+test_mem   [ 100% ] 100 VUs  2m00.0s/2m0s
+
+     data_received........: 26 MB   218 kB/s
+     data_sent............: 376 MB  3.1 MB/s
+     iteration_duration...: avg=1.81ms min=117.95µs med=1.6ms max=111.41ms p(90)=2.64ms p(95)=3.55ms
+     iterations...........: 6524212 54367.872568/s
+     vus..................: 100     min=100        max=100
+     vus_max..............: 100     min=100        max=100
+
+
+running (2m00.0s), 000/100 VUs, 6524212 complete and 0 interrupted iterations
+test_mem ✓ [ 100% ] 100 VUs  2m0s
